@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" class="light scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/output.css" rel="stylesheet">
+    <title>Khoirul Umam</title>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <link rel="stylesheet" href="sc.css">
+</head>
+<body>
+    <!-- loading start -->
+    <div class="load-wrapper fixed z-[9999] flex h-[100vh] w-full flex-col flex-wrap items-center justify-center overflow-hidden bg-[#000000a1]">
+        <div class="spinner absolute mx-auto my-[100px] -mt-0 flex h-[70px] w-[100px] select-none flex-col items-center justify-center text-center text-[10px]"><span class="brand animate-pulse text-2xl text-white transition">Mam<span class="select-none font-semibold text-primary">dev</span></span>
+            <div class="mx-auto h-full w-full">
+                <div class="rec1"></div>
+                <div class="rec2"></div>
+                <div class="rec3"></div>
+                <div class="rec4"></div>
+                <div class="rec5"></div>
+            </div>
+        </div>
+    </div>
+    <!-- loading end -->
+
+    <!-- Header start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 lg:px-36 transition-all ease-linear">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-2xl text-dark dark:text-slate-100 block py-6" data-aos="fade-right" data-aos-delay="1900">Khoirul<span class="text-primary">umam</span></a>
+                </div>
+
+                <div class="flex items-center px-4" data-aos="fade-left" data-aos-delay="1900">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu" class="hidden absolute dark:shadow-slate-500 lg:dark:bg-transparent dark:bg-dark bg-white py-5 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base dark:text-white text-black py-2 mx-8 flex group-hover:text-primary" data-aos="fade-up" data-aos-delay="2000">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base dark:text-white text-black py-2 mx-8 flex group-hover:text-primary" data-aos="fade-up" data-aos-delay="2100">Tentang saya</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio" class="text-base dark:text-white text-black py-2 mx-8 flex group-hover:text-primary" data-aos="fade-up" data-aos-delay="2200">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#gallery" class="text-base dark:text-white text-black py-2 mx-8 flex group-hover:text-primary" data-aos="fade-up" data-aos-delay="2300">Gallery</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base dark:text-white text-black py-2 mx-8 flex group-hover:text-primary" data-aos="fade-up" data-aos-delay="2400">Contact</a>
+                            </li>
+                            <!-- Dark mode -->
+                            <li class="flex items-center pl-8">
+                                <div class="flex" data-aos="fade-left" data-aos-delay="2500">
+                                    <span class="mr-2 text-sm text-yellow-500">Light</span>
+                                    <input type="checkbox" class="hidden" id="dark-toggle">
+                                    <label for="dark-toggle">
+                                        <div class="flex h-5 w-9 cursor-pointer items-center rounded-full  bg-black p-1 dark:bg-white">
+                                            <div class="toggle-circle h-4 w-4 rounded-full bg-yellow-600 transition duration-300 ease-in-out"></div>
+                                        </div>
+                                    </label>
+                                    <span class="mr-2 text-sm text-yellow-500" style="margin: 0 6px;">Dark</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Hero start -->
+    <section id="home" class="pt-36 dark:bg-dark">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2 lg:pl-[150px]" data-aos="fade-right" data-aos-delay="2000">
+                    <div class="inline-block text-center md:text-start lg:-mb-5">
+                       <h1 class="text-base font-semibold text-dark dark:text-white md:text-xl">Hallo Semua👋, saya <span class="block font-bold text-primary text-4xl mt-1 lg:text-5xl">Koirul Umam</span></h1>
+                       <h2 class="font-medium dark:text-slate-300 text-slate-500 text-lg mb-5 lg:text-2xl">Bisa di panggil Umam, Asal Sumenep</h2>
+                       <p class="font-medium dark:text-slate-300 text-slate-400 mb-10 leading-relaxed">Saya Mahasiswa <span class="typed-text text-primary"></span><span class="cursor"> </span></p>
+                       <a href="https://instagram.com/umam_lashter" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg ">Hubungi saya</a>
+                    </div>
+                </div>
+
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:mt-9 lg:right-0" data-aos="fade-up" data-aos-delay="2200">
+                        <img src="dist/img/logoki-removebg-preview-removebg-preview.png" alt="Khoirulumam" class="max-w-full mx-auto relative z-10"/>
+                        <span class="absolute bottom-0 left-1/3 top-1 -translate-x-1/2 md:scale-125">
+                            <svg width="350" height="350" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="rgb(218, 165, 32)" d="M65.5,-19.3C72.9,1.7,58.8,31.6,40.5,41.6C22.1,51.7,-0.5,41.8,-13,29.9C-25.5,18,-27.9,4.1,-24,-11.9C-20.1,-27.9,-10.1,-45.9,9.5,-49C29,-52.1,58,-40.2,65.5,-19.3Z" transform="translate(100 100) scale(1.4)"/>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero end -->
+
+    <!-- About start -->
+    <section id="about" class="pt-36 pb-32 dark:bg-dark">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="wfll px-4 mb-10 lg:w-1/2 lg:pl-[150px]" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1500">
+                    <h4 class="font-bold uppercase text-primary text-lg mb-3">TENTANG SAYA</h4>
+                    <h2 class="font-bold dark:text-white text-dark text-3xl mb-5 max-w-md lg:text-4xl">Mari, Berkenalan dengan saya</h2>
+                    <p class="font-medium text-base text-slate-500 dark:text-slate-300 max-w-xl lg:text-lg">Perkenalkan, nama saya umam asal kota sumenep jawa timur, Saya mengenal coding dari tahun 2022 semenjak kuliah di Institut Sains Dan Teknologi (IST) Annuqayah.</p>
+                    <a href=""></a>
+                </div>
+
+                <div class="w-full px-4 lg:w-1/2 lg:pl-[150px]" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1500">
+                    <h3 class="font-semibold dark:text-white text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Mari Berteman</h3>
+                    <p class="font-medium text-base text-secondary dark:text-slate-300 mb-6 lg:text-lg">Jika anda ingin berteman atau memiliki  sebuah pertanyaan, ikuti media sosial saya di bawah ini</p>
+                    <div class="icons">
+                        <a href=""  data-aos="fade-down" data-aos-duration="1300"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""  data-aos="fade-down" data-aos-duration="1450"><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""  data-aos="fade-down" data-aos-duration="1550"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href=""  data-aos="fade-down" data-aos-duration="1650"><i class="fa-brands fa-google"></i></a>
+                        <a href=""  data-aos="fade-down" data-aos-duration="1750"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href=""  data-aos="fade-down" data-aos-duration="1850"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="w-full px-4 mt-4 lg:pl-[150px]" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1500">
+                    <h3 class="font-semibold dark:text-white text-dark text-2xl mb-4">Kemampuan saya</h3>
+                    <div class="iconss">
+                        <a href="" data-aos="fade-down" data-aos-duration="1300"><i class="fa-brands fa-html5"></i></a>
+                        <a href="" data-aos="fade-down" data-aos-duration="1450"><i class="fa-brands fa-css3-alt"></i></a>
+                        <a href="" data-aos="fade-down" data-aos-duration="1550"><i class="fa-brands fa-java"></i></a>
+                        <a href="" data-aos="fade-down" data-aos-duration="1650"><i class="fa-brands fa-react"></i></a>
+                        <a href="" data-aos="fade-down" data-aos-duration="1750"><i class="fa-brands fa-square-js"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About end -->
+
+    <!-- Portfolio start -->
+    <section id="portfolio" class="pt-36 pb-16 bg-slate-100 dark:bg-slate-800">
+        <div class="container">
+            <div class="w-full px-4" data-aos="fade-down" data-aos-duration="1000">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 dark:text-white">Project Terbaru</h2>
+                    <p class=" font-medium text-md dark:text-slate-300 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus quod illo quo in placeat laudantium vel, cum ducimus facilis!</p>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-12 p-4 md:w-1/2" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/wedding1.jpeg" alt="" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">wedding Dedi&Nisa</h3>
+                    <p class="font-medium text-base dark:text-slate-300 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius blanditiis cumque similique, unde voluptate minus!</p>
+                    <a href="https://umamashter.github.io/wedding/"  class="underline text-base font-semibold text-slate-700 dark:text-white rounded-full hover:text-primary">Demo</a>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/WhatsApp Image 2023-09-22 at 23.20.46.jpeg" alt="" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Kedai kopi kenangan senja</h3>
+                    <p class="font-medium text-base dark:text-slate-300 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius blanditiis cumque similique, unde voluptate minus!</p>
+                    <a href="https://umamashter.github.io/kedaikopi/"  class="underline text-base font-semibold text-slate-700 dark:text-white rounded-full hover:text-primary">Demo</a>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/grab1.jpeg" alt="" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Aplikasi grab sederhana berbasis android</h3>
+                    <p class="font-medium text-base dark:text-slate-300 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius blanditiis cumque similique, unde voluptate minus!</p>
+                    <a href="https://github.com/umamashter/grab.git"  class="underline text-base font-semibold text-slate-700 dark:text-white rounded-full hover:text-primary">Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio end -->
+
+    <!-- Gallery start -->
+    <section id="gallery" class="pt-36 pb-32 dark:bg-dark">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16" data-aos="fade-down" data-aos-duration="1000">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Gallery</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 dark:text-white">Foto Aktivitas</h2>
+                    <p class=" font-medium text-md dark:text-slate-300 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus quod illo quo in placeat laudantium vel, cum ducimus facilis!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery end -->
+
+    <!-- Contac start -->
+    <section id="contact" class="pt-36 pb-32 bg-slate-100 dark:bg-slate-800" >
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 dark:text-white">Hubungi Kami</h2>
+                    <p class=" font-medium text-md dark:text-slate-300 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus quod illo quo in placeat laudantium vel, cum ducimus facilis!</p>
+                </div>                
+            </div>
+            <form action="">
+                <div class="w-full lg:w-2/3 lg:mx-auto">
+                <div class="w-full px-4 mb-8" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="150">
+                    <label for="nama" class="text-base font-bold text-primary">Nama</label>
+                    <input type="text" id="nama" placeholder="masukan nama" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                </div>
+                <div class="w-full px-4 mb-8" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+                    <label for="email" class="text-base font-bold text-primary">Email</label>
+                    <input type="email" id="email" placeholder="masukan email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                </div>
+                <div class="w-full px-4 mb-8" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="250">
+                    <label for="pesan" class="text-base font-bold text-primary">Pesan</label>
+                    <textarea type="text" id="pesan" placeholder="masukan pesan" class="w-full h-32 bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"></textarea>
+                </div>
+                <div class="w-full px-4" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+                    <button class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-200">Kirim</button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </section>
+    <!-- Contac end -->
+
+    <!-- Footr start -->
+    <footer class="bg-dark pt-24 pb-12 dark:bg-dark">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+                    <h2 class="font-bold text-4xl text-white mb-5">Khoir<span class="font-bold text-primary">Dev</span></h2>
+                    <h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
+                    <p>Khoirul Umam</p>
+                    <p>jl. dr. bunga mekar no. 123</p>
+                    <p>Sumenep</p>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Tulisan</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="" class="inline-block text-base hover:text-primary mb-3">Teknologi</a>
+                        </li>
+                        <li>
+                            <a href="" class="inline-block text-base hover:text-primary mb-3">Teknologi</a>
+                        </li>
+                        <li>
+                            <a href="" class="inline-block text-base hover:text-primary mb-3">Teknologi</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="" class="inline-block text-base hover:text-primary mb-3">Beranda</a>
+                        </li>
+                        <li>
+                            <a href="" class="inline-block text-base hover:text-primary mb-3">Tentang saya</a>
+                        </li>
+                        <li>
+                            <a href="" class="inline-block text-base hover:text-primary mb-3">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="" class="inline-block text-base hover:text-primary mb-3">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="" class="inline-block text-base hover:text-primary mb-3">Contat</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full pt-10 border-t border-slate-500">
+                <div class="flex items-center justify-center mb-5">
+                    <div class="iconsB">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-google"></i></a>
+                        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                    
+                </div>
+                <div>
+                    <p class="font-medium text-sm text-slate-500 dark:text-slate-300 text-center">Creadet by @<a href="https://www.instagram.com/umam_lashter" target="_blank" class="font-bold text-primary">Khoirul Umam</a>, use <a href="https://tailwindcss.com/docs/installation" target="_blank" class="text-bold text-primary">Tailwind CSS</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footr end -->
+
+    <!-- scrol home -->
+    <a href="#home" class="hidden justify-center items-center h-12 w-12 bg-primary rounded-full z-[9999] bottom-4 right-4 fixed p-4 hover:animate-pulse" id="to-top"><span class="block h-4 w-4 rotate-45 border-t-2 border-l-2 mt-2 "></span></i>
+    </a>
+
+    <!-- Aos animation scroling  start -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- End -->
+
+    <script src="dist/js/index.js"></script>
+</body>
+</html>
